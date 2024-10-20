@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url("/images/bg-image.jpg");
+}
+
+.hero-text{
+    color: white;
+}
+
+.hero-text2{
+   color: gray;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.shop-button{
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.outline-button{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    width: 100px;
+}
+
+.buttons{
+    display:  flex;
+    gap: 20px;
+    margin-top: 40px;
+    outline:none,
+}
+
+.second-container{
+ padding: 20px;
+ display:  flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+.top{
+    margin-top: 10px;
+}
+
+.place {
+    position: relative;
+    display: inline-block; /* Keep image and text together */
+    text-align: center;
+}
+
+.first-chair{
+    font-size: 12px;
+    text-align: center;
+}
+
+#reduce{
+    font-size: 10px;
+}
+
+.place-up {
+    position: absolute;
+    bottom: 10px; /* Position the text at the bottom of the image */
+    left: 50%;
+    transform: translateX(-50%); /* Center the text horizontally */
+    color: black; /* Set the text color for contrast */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: Semi-transparent background for visibility */
+    padding: 2px; /* Adjust padding for better appearance */
+    font-size: 16px; /* Adjust font size as needed */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+
+.btn1{
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-radius:  20px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.image1{
+    width: 70%;
+    height: 70%;
+}
+
+.image2{
+    width: 70%;
+    height: 70%;
+}
+
+.image3{
+    width: 70%;
+    height: 70%;
+}
