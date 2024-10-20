@@ -107,3 +107,12 @@
     width: 70%;
     height: 70%;
 }
+
+
+@media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column; /* Stack the elements vertically */
+      text-align: center; /* Center the text and image */
+    }
+  
+  }
